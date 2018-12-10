@@ -14,10 +14,10 @@
 		9427531F21BECE0E0085A737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9427531D21BECE0E0085A737 /* LaunchScreen.storyboard */; };
 		9427532A21BECE0F0085A737 /* Exo3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427532921BECE0F0085A737 /* Exo3Tests.swift */; };
 		9427533521BECE0F0085A737 /* Exo3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427533421BECE0F0085A737 /* Exo3UITests.swift */; };
-		9427538D21BECFE60085A737 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9427538021BECFDC0085A737 /* SQLite.framework */; };
 		9427538E21BECFF20085A737 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9427538021BECFDC0085A737 /* SQLite.framework */; };
 		9427538F21BECFF20085A737 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9427538021BECFDC0085A737 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9427539421BED4E80085A737 /* ViewControllerAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427539321BED4E80085A737 /* ViewControllerAdd.swift */; };
+		9427539721BEDF5E0085A737 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427539621BEDF5E0085A737 /* TableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +124,7 @@
 		9427535B21BECECB0085A737 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		9427537521BECFDB0085A737 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../Desktop/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
 		9427539321BED4E80085A737 /* ViewControllerAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAdd.swift; sourceTree = "<group>"; };
+		9427539621BEDF5E0085A737 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +133,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9427538E21BECFF20085A737 /* SQLite.framework in Frameworks */,
-				9427538D21BECFE60085A737 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +178,7 @@
 		9427531321BECE090085A737 /* Exo3 */ = {
 			isa = PBXGroup;
 			children = (
+				9427539621BEDF5E0085A737 /* TableTableViewController.swift */,
 				9427539321BED4E80085A737 /* ViewControllerAdd.swift */,
 				9427531421BECE090085A737 /* AppDelegate.swift */,
 				9427531621BECE090085A737 /* ViewController.swift */,
@@ -420,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9427539721BEDF5E0085A737 /* TableTableViewController.swift in Sources */,
 				9427531721BECE090085A737 /* ViewController.swift in Sources */,
 				9427539421BED4E80085A737 /* ViewControllerAdd.swift in Sources */,
 				9427531521BECE090085A737 /* AppDelegate.swift in Sources */,
