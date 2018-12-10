@@ -15,6 +15,7 @@ class TableTableViewController: UITableViewController {
     @IBOutlet var tableview: UITableView!
     
     override func viewDidLoad() {
+        self.navigationController?.navigationBar.isHidden = true
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations
@@ -46,7 +47,7 @@ class TableTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell1", for: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "customcell", for: indexPath) as! UITableViewCell
 
         cell.textLabel?.text = data[indexPath.item]
 
